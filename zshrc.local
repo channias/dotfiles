@@ -45,6 +45,12 @@ ZSH_THEME="pygmalion"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# tmux options
+export ZSH_TMUX_AUTOSTART=true
+export ZSH_TMUX_AUTOSTART_ONCE=false
+export ZSH_TMUX_FIXTERM_WITH_256COLOR=xterm-256color
+export ZSH_TMUX_FIXTERM_WITHOUT_256COLOR=xterm
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
