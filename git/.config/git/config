@@ -1,0 +1,52 @@
+[user]
+    email = nicolas.chancereul@gmail.com
+    name = Nicolas Chancereul
+    signingkey = 
+[core]
+    abbrev = 9
+    editor = nvim
+[advice]
+    statusHints = false
+    commitBeforeMerge = false
+    detachedHead = false
+    waitingForEditor = false
+[am]
+    threeWay = true
+[apply]
+    ignoreWhitespace = change
+[branch]
+    autoSetupRebase = always
+    autoSetupMerge = always
+[color]
+    ui = auto
+[commit]
+    gpgsign = true
+[credential]
+    helper = cache --timeout 30000 # seconds
+[diff]
+    mnemonicPrefix = true
+    renames = copies
+[format]
+    pretty = medium
+[help]
+    autoCorrect = -1
+[log]
+    abbrevCommit = true
+    date = local
+    decorate = short
+[merge]
+    stat = true
+    tool = vimdiff
+[pull]
+    ff = only
+[push]
+    default = current
+[rebase]
+    stat = true
+    autoSquash = true
+    autoStash = true
+[rerere]
+    enabled = true
+    autoUpdate = true
+[include]
+    path = ./local
