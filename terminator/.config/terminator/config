@@ -1,0 +1,26 @@
+[global_config]
+  borderless = True
+  title_hide_sizetext = True
+  window_state = maximise
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#aaaaaa"
+    font = Liberation Mono 10
+    scroll_on_output = True
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    use_system_font = False
