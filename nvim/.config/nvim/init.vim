@@ -276,6 +276,9 @@ endif
 "" Custom configs
 "*****************************************************************************
 
+" listchars                                                                                                                                                                                                                                    
+set list lcs=tab:→\ ,eol:↲,nbsp:␣,space:·,trail:•,extends:⟩,precedes:⟨
+
 " disable concealing in JSON
 let g:vim_json_syntax_conceal = 0
 
