@@ -276,7 +276,7 @@ endif
 "" Custom configs
 "*****************************************************************************
 
-" listchars                                                                                                                                                                                                                                    
+" listchars
 set list lcs=tab:→\ ,eol:↲,nbsp:␣,space:·,trail:•,extends:⟩,precedes:⟨
 
 " disable concealing in JSON
